@@ -3,6 +3,8 @@
   "pass": "",
   "master": "",
   "channel": "",
-  "adminChannel": ""
+  "adminChannel": "",
+  "wikiUrl":"",
+  "wikiRootPage":"",
 }
 

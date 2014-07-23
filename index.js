@@ -279,7 +279,7 @@ onGlobalCmd = function(from,message,respond,respondError) {
 require('./lib/tools.js');
 require('./lib/userPlayer.js');
 
-var Cards = require('./lib/gameContent.js').create();
+var Cards = require('./lib/gameContent.js').create(conf.wikiUrl,conf.wikiRootPage);
 var defaultMode = {
   commands: require('./default/commands.js'),
   config: require('./default/config.js'),
